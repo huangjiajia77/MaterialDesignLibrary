@@ -45,6 +45,19 @@ repositories {
 dependencies {
     compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
 }
+
+【******
+  issue："ripplColor" has already been defined
+  solution:
+          repositories {
+            maven { url "https://jitpack.io" }
+          }
+
+          dependencies {
+                compile 'com.github.vajro:MaterialDesignLibrary:1.6'
+          }
+  
+*******】
 ```
 
 Some components have custom attributes, if you want use them, you must add this line in your xml file in the first component:
